@@ -142,3 +142,29 @@ function CrewContents() {
 In this code snippet, It first check if `crewName` is not provided, and if so, it redirect the user to the first crew member's page. Additionally, if the specified crew member is not found in the dataset, a redirect to a custom NotFound page is implemented.
 
 This approach ensures a seamless user experience, providing default navigation when needed and gracefully handling scenarios where a crew member is not found.
+
+## Installation
+
+- Clone this repo:
+
+```sh
+git clone https://github.com/aniru-dh21/Space-Tourism-Multi-Page-Website.git
+```
+
+- Install Dependencies:
+
+```sh
+npm install
+```
+
+- Build Command:
+
+```sh
+npm run build
+```
+
+- Live Server:
+
+```sh
+npm run dev
+```
