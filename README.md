@@ -23,3 +23,17 @@
   <hr>
   
 </div>
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" />
+
+  <a href="https://twitter.com/Dh21Aniru" target="_blank">
+    <img alt='Twitter' src="https://img.shields.io/badge/@Dh21Aniru-100000?style=for-the-badge&logo=Twitter&logoColor=00C9F7&labelColor=3F3F3F&color=0092FA">
+  </a>
+
+  <a href="https://www.linkedin.com/in/ramachandra-anirudh-vemulapalli-554b551ba/" target="_blank">
+    <img src="https://img.shields.io/badge/@Dh21Aniru-100000?style=for-the-badge&logo=LinkedIn&logoColor=00a0dc&labelColor=2F2F2F&color=0077b5">
+  </a>
+  
+</div>
