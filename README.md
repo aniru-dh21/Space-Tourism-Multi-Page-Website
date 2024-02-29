@@ -37,3 +37,13 @@
   </a>
   
 </div>
+
+<p align="center">
+  A multi-page space tourism website - discover destinations, meet the crew, and delve into technology. 
+</p>
+
+<a align="center" href="https://space-tourism-multi-page-website-ivory.vercel.app/">
+
+  ![Screenshot](./public/thumbnail-preview.jpg)
+  
+</a>
