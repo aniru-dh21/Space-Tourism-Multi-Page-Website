@@ -70,3 +70,12 @@ Users should be able to:
 
 - View Demo - [Live](https://space-tourism-multi-page-website-ivory.vercel.app/)
 - Solution Page - [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/space-tourism-multipage-website-HxYs_fHRjN)
+
+## My Process
+
+### Tech Stack
+
+- React
+- React router
+- Styled components
+- Vite
