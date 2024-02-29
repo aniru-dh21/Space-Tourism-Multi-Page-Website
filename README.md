@@ -57,3 +57,11 @@
   - [What I Learned](#what-i-learned)
 - [Installation](#installation)
 - [Author](#author)
+
+## Key Features
+
+Users should be able to:
+
+- Viw each page and be able to toggle between the tabs to see new information
+- View the optimal layout for each for each of the website's page depending on their device's screen size
+- See hover states for all interactive elements on the page
