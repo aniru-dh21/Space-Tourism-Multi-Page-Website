@@ -168,3 +168,12 @@ npm run build
 ```sh
 npm run dev
 ```
+
+## Author
+
+<b>Ramachandra Anirudh Vemulapalli</b>
+
+- Twitter - [@Dh21Aniru](https://twitter.com/Dh21Aniru)
+- LinkedIn - [@Ramachandra-Anirudh-Vemulapalli](https://www.linkedin.com/in/ramachandra-anirudh-vemulapalli-554b551ba/)
+- Frontend Mentor - [@aniru-dh21](https://www.frontendmentor.io/profile/aniru-dh21)
+- Github - [@aniru-dh21](https://github.com/aniru-dh21)
