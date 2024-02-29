@@ -110,3 +110,35 @@ const StyledAppLayout = styled.div.withConfig({
 ```
 
 Utilizing React Router's `useLocation` hook to get the current location, extrated the page name, and passed it as a prop to styled component. Leveraging `styled-components` allowing to dynamically set baackground images based on the page, creating a seamless transition between pages.
+
+#### React Router and Conditional Redirects
+
+Implementing conditional redirects with React Router was crucial for ensuring a smooth user experience. For instance, when a user lands on the `/crew` route without specifying a particular crew member. To address this, implemented conditional redirects using React Router. 
+
+```jsx
+function CrewContents() {
+  const crews = jsonData.crew;
+  const { name: crewName } = useParams();
+  const activeName = crewName || crews[0].name;
+  const currentCrew = crews.find((crew) => crew.name === activeName);
+
+  // Redirect to the first crew member if no specific crew is selected
+  if (!crewName) {
+    return <Navigate to={`/crew/${crews[0].name}`} replace />;
+  }
+
+  // Redirect to a 404 page if the specified crew member is not found
+  if (!currentCrew) {
+    return <NotFound />;
+  }
+
+  // Rest of the component rendering
+  return (
+    // ...
+  );
+}
+```
+
+In this code snippet, It first check if `crewName` is not provided, and if so, it redirect the user to the first crew member's page. Additionally, if the specified crew member is not found in the dataset, a redirect to a custom NotFound page is implemented.
+
+This approach ensures a seamless user experience, providing default navigation when needed and gracefully handling scenarios where a crew member is not found.
