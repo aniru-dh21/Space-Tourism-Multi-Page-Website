@@ -47,3 +47,13 @@
   ![Screenshot](./public/thumbnail-preview.jpg)
   
 </a>
+
+## Table of Contents
+
+- [Key Features](#key-features)
+- [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I Learned](#what-i-learned)
+- [Installation](#installation)
+- [Author](#author)
