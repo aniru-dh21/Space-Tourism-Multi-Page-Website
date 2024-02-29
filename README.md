@@ -83,3 +83,30 @@ Users should be able to:
 ### What I Learned
 
 During the development of the Space Tourism Website, I encountered several challenges and gained valuable insights into various aspects of web development.
+
+#### Dynamic Backgrounds with React Router and Styled Components
+
+One of the challenges faced was dynamically changing the background image based on the page the user navigates to. Wanting to provide a visually appealing experience by adjusting the background according to each page.
+
+```css
+const StyledAppLayout = styled.div.withConfig({
+  shouldForwardProp: (prop) => "pageLocation" !== prop,
+})`
+  background-image: ${(props) =>
+    `url("/images/${props.pageLocation}/background-${props.pageLocation}-mobile.jpg")`};
+
+  @media screen and (min-width: 768px) {
+    background-image: ${(props) =>
+      `url("/images/${props.pageLocation}/background-${props.pageLocation}-tablet.jpg")`};
+  }
+
+  @media screen and (min-width: 1024px) {
+    background-image: ${(props) =>
+      `url("/images/${props.pageLocation}/background-${props.pageLocation}-desktop.jpg")`};
+  }
+
+  // Additional styles...
+`;
+```
+
+Utilizing React Router's `useLocation` hook to get the current location, extrated the page name, and passed it as a prop to styled component. Leveraging `styled-components` allowing to dynamically set baackground images based on the page, creating a seamless transition between pages.
