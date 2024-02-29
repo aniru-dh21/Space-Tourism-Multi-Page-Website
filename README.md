@@ -79,3 +79,7 @@ Users should be able to:
 - React router
 - Styled components
 - Vite
+
+### What I Learned
+
+During the development of the Space Tourism Website, I encountered several challenges and gained valuable insights into various aspects of web development.
